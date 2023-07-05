@@ -1,0 +1,134 @@
+/*---------------- BODY------------------*/
+.contenedorCarrusel {
+    width: 100%;
+    height: 500px;
+}
+
+.d-block {
+    width: 95%;
+    height: 500px;
+}
+
+main {
+    margin-top: 100px;
+    background-color: rgb(243, 235, 235);
+}
+
+
+
+.ranking {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 1em;
+}
+
+.video-contenedor {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#vid {
+    width: auto;
+    height: 450px;
+}
+
+.contenedor-ranking {
+    margin: 100px 0px;
+    background: #56ab2f;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #56ab2f, #a8e063);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #56ab2f, #a8e063);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 600px;
+}
+
+section div {
+    margin: 40px 0px 0px 0px;
+}
+
+.ranking div {
+    justify-content: center;
+}
+
+.ranking div img {
+    height: 200px;
+    border-radius: 16px;
+}
+
+.encabezado-ranking {
+    display: grid;
+    grid-template-columns: 10% 72% 3% 3% 3% 3% 6%;
+    grid-column: 1/4;
+}
+
+.top {
+    justify-self: center;
+}
+
+#circuito {
+    font-size: 85px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: bolder;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+}
+
+#hashtag {
+    height: 100px;
+    margin-left: 50px;
+}
+
+.starts {
+    max-width: auto;
+    max-height: 40px;
+    margin-top: 25px;
+}
+
+#prestigio {
+    font-family: 'Courier New', Courier, monospace;
+    letter-spacing: 3px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: -20px;
+}
+
+#ultimo {
+    margin-right: 50px;
+}
+
+#masterdrive {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: -20px;
+}
+
+.mapa {
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+}
+
+.mapa iframe {
+    position: absolute;
+    top: 0;
+    left: 450px;
+    width: 700px;
+    height: 700px;
+}
+
+#ubicacion {
+    color: rgb(2, 2, 2);
+    font-size: 30px;
+    border: 2px solid rgb(51, 82, 6);
+    padding: 10px;
+    width: 30%;
+}
+

@@ -1,0 +1,90 @@
+
+#contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+ main{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 20px;
+ }
+ aside{
+    width: 25%;
+   padding: 20px;
+   background-color: rgb(255, 255, 255);
+ }
+ .recomendation h3{
+    padding: 20px 0px;
+    text-align: center;
+    color: rgb(13, 14, 14);
+    border: 3px solid rgb(59, 151, 36);
+    border-radius: 2rem;
+ }
+ .recomendation ul{
+    padding: 5px 15px;
+    display: block;
+    font-size: 15px;
+    border: 2px solid black;
+    margin-top: 20px;
+    background-color: rgb(71, 224, 91);
+    border-radius: 1rem;
+}
+.recomendation ul li{
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    color: rgb(15, 15, 15);
+    text-align:start
+}
+ section{
+    width: 80%;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgb(99, 168, 122);
+ }
+ section figure{
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 1px solid white;
+ }
+ section figure img{
+    width: 80%;
+    margin: 10px auto;
+    display: block;
+ }
+ section figure p{
+    font-size: 10pt;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+ }
+ section figure figcaption {
+    margin: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(3, 71, 68);
+    font-weight: bold
+}
+ aside video{
+    width: 100%;
+    padding: 20px 0px;
+ }
+ aside h1{
+    padding: 20px 0px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    border: 3px solid rgb(59, 151, 36);
+    border-radius: 2rem;
+ }
+ aside h4{
+    padding: 20px 0px;
+    text-align: center;
+    color: rgb(5, 5, 5);
+ }
+ 

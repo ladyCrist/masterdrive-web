@@ -1,0 +1,70 @@
+main {
+  padding: 2rem;
+}
+
+main .subtitle {
+  margin: 6.75rem 0rem 2rem 0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16pt;
+  gap: 1rem;
+}
+
+main .subtitle svg {
+  width: 2rem;
+}
+
+/* CONTACT SECTION */
+.form_flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.form_flex form {
+  width: 50%;
+  padding: 2rem;
+  background-color: #13b42e;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 1rem;
+  gap: 1.5rem;
+}
+
+.form_flex form input,
+.form_flex form textarea {
+  background-color: #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+}
+
+.form_flex form button {
+  padding: 1rem;
+  border: none;
+  color: #ffffff;
+  background-color: #4a4d46;
+  font-weight: 700;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.form_flex form button:hover {
+  background-color: #0e0e0e;
+}
+
+/* MAPS SECTION */
+.map_section {
+}
+
+.map_section img {
+  width: 100%;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
